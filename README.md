@@ -21,6 +21,9 @@ Remove an existing entry in the database
 
 These are the endpoints created in the API and will allow the user to retrieve specific data about a device, insert data, update the data of an existing device and or remove the device along with its related information from the database.
 
+## API MANAGEMENT
+This project also includes API management, will help secure the API and reduce the risk of potential attacks by not directly exposing it to microservices
+
 ## STORAGE OF SENSITIVE INFORMATION AND FILES THAT GIT SHOULD NOT TRACK
 A .gitignore file will be used to ignore files that need not be tracked by git, such files are (and are not limited to) connection.udl, .vs, bin, etc
 
