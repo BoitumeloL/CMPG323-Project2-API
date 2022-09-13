@@ -24,12 +24,17 @@ These are the endpoints created in the API and will allow the user to retrieve s
 ## API MANAGEMENT
 This project also includes API management, will help secure the API and reduce the risk of potential attacks by not directly exposing it to microservices
 
+![API MANAGEMENT](https://user-images.githubusercontent.com/110591480/189844938-ac407916-2455-4792-9288-f69fa7cb48ff.png)
+![image](https://user-images.githubusercontent.com/110591480/189845191-e978ebbb-8455-4b9c-b8af-5078690d239e.png)
+
+
+
 ## STORAGE OF SENSITIVE INFORMATION AND FILES THAT GIT SHOULD NOT TRACK
 A .gitignore file will be used to ignore files that need not be tracked by git, such files are (and are not limited to) connection.udl, .vs, bin, etc
 
 ##IMPLEMENTATION OF SECURITY 
 
-##BRANCHING STRATEGY
+## BRANCHING STRATEGY
 The git workflow branching strategy is used as mentioned in CMPG323- Overview.
 All of the work, such as develeoping the API and adding the required features is done in the development branch and then pushed into the main branched (ready for production - in this case - the final project)
 
